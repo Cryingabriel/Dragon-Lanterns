@@ -1,5 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<nav>
+  <ul>
+      <li style="text-align: center">
+          <a href="templet.html">Website</a>
+          <a href="reviews.html">reviews</a>
+      </li>
+  </ul>
+</nav>
+
+
 <head>
 <title>DragonLantern</title>
 <meta charset="UTF-8">
@@ -41,7 +52,7 @@ body {font-size:16px;}
     <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a> 
     <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Managment</a> 
     <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Products</a> 
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">review</a>
   </div>
 </nav>
 
@@ -58,7 +69,7 @@ body {font-size:16px;}
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
   <div class="w3-container" style="margin-top:80px" id="showcase">
     <h1 class="w3-jumbo"><b>Dragon Lanterns</b></h1>
-    <video width="600" height="300" controls>
+    <video width="350" height="300" controls>
       <source src="rick.mp4" type="video/mp4">
       Your browser does not support the video shown.
     </video>
@@ -210,10 +221,10 @@ body {font-size:16px;}
   
   <!-- Contact -->
   <div class="w3-container" id="contact" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>review.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
     <p>Do you want leave a review on the Dragon Lanterns? go below to give us feedback on things that we could look into/improve.</p>
-    <form action="/action_page.php" target="_blank">
+    <form action="review.php" method="post">
       <div class="w3-section">
         <label>Name</label>
         <input class="w3-input w3-border" type="text" name="Name" required>
